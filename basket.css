@@ -1,0 +1,639 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none !important; 
+    list-style: none;
+    font-size: 20px !important;
+}
+
+
+
+.section2{
+    width: 60%;
+    height: 50px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 110px;
+    padding-top: 15px;
+}
+.h3 a{
+    font-size: 16px !important;
+    color: white;
+    padding-right: 10px;
+    border-right: 1px solid white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.hh3 a{
+    font-size: 16px !important;
+    color: white;
+    padding-right: 10px;
+    border-right: 1px solid white;
+    padding-left: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.hhh3 a{
+    font-size: 16px !important;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.snobella{
+    width: 100%;
+    height: 90px;
+    /* background-color: #007838; */
+    display: flex;
+}
+.snobella1{
+    width: 20%;
+    height:90px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.snobella1 a{
+    color: black;
+    padding-right: 20px;
+    font-size: 35px !important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.search{
+    width: 45%;
+    height: 90px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-box{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(235, 235, 235);
+    border: none !important;
+    border-radius: 7px;
+}
+.search-box input{
+    border: none;
+    width: 90%;
+    height: 47px;
+    padding-left: 30px;
+    background: transparent;
+    outline: none;
+}
+.search-box i{
+    font-size: 27px !important;
+    color: rgb(66, 66, 66);
+}
+.search-box input::placeholder {
+    font-size: 20px !important;
+    
+}
+.sigin{
+    width: 35%;
+    height: 90px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+}
+.ull{
+    display: flex;
+}
+.ull a{
+    display: flex;
+    position: relative;
+    color: black;
+    letter-spacing: 0.5px;
+    padding: 0  10px;
+    
+}
+.ull a::after{
+    content: " ";
+    position: absolute;
+    background-color: #DF4244;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom:  0;
+    transition: 0.5s;
+}
+
+.ull a:hover:after{
+    width: 100%;
+}
+
+
+
+.lii{
+    padding-right: 20px;
+}
+.lii2{
+    padding-right: 20px;
+}
+.ull i{
+    padding-right: 6px;
+    color: black;
+}
+
+
+.words{
+    width: 100%;
+    height: 40px;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+.words ul{
+    display: flex;
+    padding-left: 110px;
+    align-items: center;
+}
+.words ul li{
+    padding-right: 40px;
+}
+.words a{
+    color: black;
+    font-size: 20px !important;
+}
+.words a:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+
+.bags-bag{
+    width: 100%;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+
+}
+.bag-bag-collage{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.big-area-img{
+    width: 80%;
+    height: 300px;
+    background-color: rgb(189, 180, 180);
+    display: flex;
+}
+.img-four img{
+    width: 70%;
+    height: auto;
+    padding: 0  14px;
+    margin-left: 20px;
+}
+.img-heart{
+    width: 100%;
+    height: 40px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-heart a{
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.img-heart img{
+    padding-right: 30px;
+    transition: 0.5s;
+}
+.img-heart img:hover{
+    transform: scale(1.1);
+}
+.img-kart2{
+    width: 100%;
+    height: 260px;
+    background-color: #e6e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-kart2 img{
+    width: 60%;
+    height: 200px; 
+    margin-bottom: 50px;
+}
+.img-four{
+    width: 25%;
+    height: 300px;
+    background-color: #f6f4f4;
+}
+.img-one{
+    width: 75%;
+    height: 300px;
+    background-color: #e6e0e0;
+}
+
+
+
+
+
+.bag-textt{
+    width: 50%;
+    height: 400px;
+    /* background-color: rgb(70, 4, 4); */
+    padding-top: 50px;
+    
+}
+
+.img-smartt{
+    width: 100%;
+    height: 40px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;    
+    padding-left: 70px;
+}
+.img-smartt img{
+    padding-right: 30px;
+}
+
+.but-textt{
+    width: 80%;
+    height: 100px;
+    /* background-color: blueviolet; */
+    /* padding: 12px 12px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* padding-left: 70px; */
+}
+
+
+.picess1{
+    width: 45%;
+    height: 40px;
+    font-size: 12px;
+    border: 1px saolid black;
+    background-color: transparent;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.picess1:hover p{
+    border-bottom: 1px solid black;
+    transition: .4s!important;
+    cursor: pointer;
+}
+.but-textt p{
+    font-size: 16px !important;
+}
+
+.size{
+    width: 50%;
+    height: 30px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 70px;
+}
+.size-m{
+    width: 50%;
+    height: 50px;
+    /* background-color: green; */
+    padding-left: 30px;
+    align-items: center;
+    display: flex;
+    padding-left: 70px;
+}
+.size-m img{
+    width: 30%;
+    height: 30px;
+    margin-left: 60px;
+}
+.size-m button{
+    padding: 5px 5px ;
+    font-size: 14px !important;
+    border: 1px saolid black;
+    background-color: transparent;
+    border-radius: 7px;
+    margin: 5px;
+}
+.btn-addd-area{
+    width: 60%;
+    height: 50px;
+    /* background-color: rgb(146, 106, 106); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 90px;
+}
+.btn-addd{
+    width: 90%;
+    height: 40px;
+    border-radius: 7px;
+    background-color: transparent;
+    font-size: 18px !important;
+    color: white;
+    background-color: red;
+}
+
+
+.two-text{
+    width: 100%;
+    height: 40px;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding-left: 50px;
+    border-bottom: 1px solid gray ;
+}
+
+.two-text-h3{
+    display: flex;
+    position: relative;
+    color: black;
+    letter-spacing: 0.5px;
+    padding: 0  10px;
+}
+.two-text-h3::after{
+    content: " ";
+    position: absolute;
+    background-color: red;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom:  0;
+    transition: 0.5s;
+    
+}
+
+.two-text-h3:hover:after{
+    width: 100%;
+}
+
+.lorem{
+    width: 100%;
+    height: 150px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lorem-p{
+    width: 100%;
+    height: 60px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ///////////////////
+////////////////////
+/////////////////// */
+.image-foother1{
+    width: 100%;
+    height: 300px;
+    /* background-color: #206363; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.snobella-fut{
+    width: 100%;
+    height: 100px;
+    background-color: #f7f7f9;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.snobella-txt1{
+    width: 40%;
+    height: 100px;
+    /* background-color: aquamarine; */
+    align-items: center;
+    display: flex;
+}
+.snobella-txt1 h1{
+    font-size: 40px !important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    padding-left: 100px;
+}
+.area-one ul li:first-child a{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+}
+.area-two ul li:first-child a{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+}
+.area-tre ul li:first-child a{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+}
+.search{
+    width: 45%;
+    height: 90px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+}
+.search-box{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.search-box input{
+    border: none;
+    width: 90%;
+    height: 47px;
+    padding-left: 30px;
+    background: transparent;
+    outline: none;
+}
+.search-box i{
+    font-size: 27px;
+    color: rgb(66, 66, 66);
+}
+.search-box input::placeholder {
+    font-size: 20px;
+    
+}
+
+.shop-area{
+    width: 100%;
+    height: 400px;
+    background-color: #f7f7f9;
+    display: flex;
+}
+.shop{
+    width: 50%;
+    height: 400px;
+    /* background-color: red; */
+    padding-top: 90px;
+}
+.text-the{
+    width: 100%;
+    height: 110px;
+    /* background-color: rgb(204, 204, 223); */
+}
+.text-the p{
+    font-size: 22px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    padding-left: 80px;
+}
+.mail-txt{
+    width: 100%;
+    height: 50px;
+    /* background-color: turquoise; */
+    display: flex;
+    padding-left: 80px;
+    align-items: center;
+}
+.mail-txt i{
+    padding-right: 10px;
+    font-size: 19px;
+}
+.mail-txt p{
+    font-size: 19px;
+}
+.but-area{
+    width: 100%;
+    height: 80px;
+    /* background-color: tomato; */
+    padding-left: 80px;
+    display: flex;
+    align-items: center;
+}
+.tel-nomer{
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    /* background-color: rgb(75, 64, 224); */
+    display: flex;
+    padding-left: 80px;
+}
+.tel-nomer i{
+    padding-right: 10px;
+    font-size: 19px;
+}
+.tel-nomer p{
+    font-size: 19px;
+}
+.but-send{
+    padding: 10px 9px;
+    border: none;
+}
+.but-send:hover{
+    background-color: #206363;
+    color: white;
+    transition: 0.6s;
+}
+
+
+
+
+
+.help{
+    width: 50%;
+    height: 400px;
+    /* background-color: rgb(0, 26, 255); */
+    display: flex;
+}
+.area-one{
+    width: 33%;
+    height: 400px;
+    /* background-color: tomato; */
+    line-height: 2;
+    padding: 90px 0px;
+}
+.area-one a{
+    color: black;
+    font-size: 19px;
+}
+.area-two a{
+    color: black;
+    font-size: 19px;
+    line-height: 2;
+    
+}
+.area-tre a{
+    color: black;
+    font-size: 19px;
+    line-height: 2;
+    
+}
+
+
+
+.area-two{
+    width: 33%;
+    height: 400px;
+    /* background-color: rgb(71, 218, 255); */
+    padding: 90px 0px;
+}
+.area-tre{
+    width: 33%;
+    height: 400px;
+    /* background-color: rgb(83, 71, 255); */
+    padding: 90px 0px;
+}
+
+
+.foother{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* background-color: brown; */
+}
+.emblema{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    /* background-color: red; */
+}
+.emblema p{
+    font-size: 18px;
+    font-weight: 900px;
+}
+.ikon-ikon{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+.ikon-ikon i{
+    font-size: 25px;
+    padding: 9px 9px;
+}
+.ikon-ikon i:hover{
+    transform: scale(1.4);
+    color: green;
+    transition: 0.5s;
+}
+
+
+/* /////////////////////////////////////////0 */
+
+
+
